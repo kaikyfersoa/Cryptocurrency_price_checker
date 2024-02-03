@@ -1,74 +1,38 @@
-# ----- Desafio codigo Brazuca ------
-# = Cryptocurrency price checker =
+# Desafio Código Brazuca: Cryptocurrency Price Checker
 
-Desenvolvemos uma aplicação em Python que em tempo real mostra o preço e as 5 ultimas variaçoes das crypto moedas:   
-## Bitcoin🪙 -Ethereum🪙- Matic🪙+
+Este projeto em Python permite que você visualize em tempo real o preço e as últimas 5 variações das seguintes criptomoedas:
 
+- Bitcoin
+- Ethereum
+- Matic
 
-## Referência ------------------------------------
+## Funcionalidades
 
- - [API e documentação Binance ](https://binance-docs.github.io/apidocs/spot/en/#order-book)
- - [Blibioteca: Requests](https://requests.readthedocs.io/projects/pt/pt_BR/latest/user/quickstart.html)
- 
+1. **Obtenção de Preço Atual:**
+   - Utiliza a API da Binance para obter o preço atual da criptomoeda em relação à moeda desejada.
 
- - [Blibioteca: Datetime](https://docs.python.org/pt-br/3/library/time.html)
+2. **Últimas Alterações de Valores:**
+   - Exibe as últimas 5 alterações de valores da criptomoeda, incluindo timestamp e preço.
 
+## Requisitos
 
+- Python 3.x
+- Biblioteca Requests (`pip install requests`)
 
-## Instalação
+## Utilização
 
+1. Execute o script `crypto_price_checker.py`.
+2. Digite o símbolo da criptomoeda (exemplo: btc) e a moeda desejada (usdt, eur, brl, etc.).
+3. Visualize o preço atual e as últimas 5 alterações de valores.
 
+## Exemplo de Execução
 
 ```bash
- Para instalar a blibioteca resquests: pip install resquests
+python crypto_price_checker.py
 ```
-    
-## Documentação da API ---------------------
 
+## Desenvolvedores
 
-
-
-### Price ticker 
-
-
-| Parâmetro   | Tipo       | Descrição                           |
-| :---------- | :--------- | :---------------------------------- |
-| `symbol`    | `string` | **Símbolo da criptomoeda, por exemplo, "btc" para Bitcoin.**|
-
-
-| Parâmetro   | Tipo       | Descrição                           |
-| :---------- | :--------- | :---------------------------------- |
-| `price`    | `float` | **Preço da moeda** |
-
-
-### Trades List
-
-| Parâmetro   | Tipo       | Descrição                           |
-| :---------- | :--------- | :---------------------------------- |
-| `symbol`    | `string` | **Símbolo da moeda** |
-
-| Parâmetro   | Tipo       | Descrição                           |
-| :---------- | :--------- | :---------------------------------- |
-| `limit`    | `int` | **Ultimas alterações de valores** |
-
-
-
-
-## Devs  -------------------------------                                                 
-- [@Michael](https://github.com/Maicon-MK)== 👨‍💻 
-- [@Renan](https://github.com/Rlf07)=== 👨‍💻       
-- [@Kaiky](https://github.com/kaikyfersoa)====👨‍💻 
-
-
-## Demonstração
-
-Insira um gif ou um link de alguma demonstração
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-
-
-
+- [@Michael](https://github.com/Maicon-MK)👨‍💻 
+- [@Renan](https://github.com/Rlf07)👨‍💻       
+- [@Kaiky](https://github.com/kaikyfersoa)👨‍💻 
