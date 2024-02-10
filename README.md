@@ -2,9 +2,11 @@
 
 Este projeto em Python permite que você visualize em tempo real o preço e as últimas 5 variações das seguintes criptomoedas:
 
-- Bitcoin
-- Ethereum
-- Matic
+- Bitcoin (btc)
+- Ethereum (eth)
+- Ripple (xrp)
+- Litecoin (ltc)
+- Bitcoin Cash (bch)
 
 ## Funcionalidades
 
@@ -18,6 +20,8 @@ Este projeto em Python permite que você visualize em tempo real o preço e as �
 
 - Python 3.x
 - Biblioteca Requests (`pip install requests`)
+- Biblioteca Tkinter (`pip install tkinter`)
+- Biblioteca datetime (`pip install datetime`)
 
 ## Utilização
 
@@ -28,7 +32,7 @@ Este projeto em Python permite que você visualize em tempo real o preço e as �
 ## Exemplo de Execução
 
 ```bash
-python crypto_price_checker.py
+python Cryptocurrency_price_checker\Cryptocurrency\app.py
 ```
 
 ## Desenvolvedores
